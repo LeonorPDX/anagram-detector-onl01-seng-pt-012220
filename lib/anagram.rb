@@ -11,8 +11,6 @@ class Anagram
     array.each do |nw|
       if nw.split("").sort == @word.split("").sort
         @matches.push(nw)
-      else
-        @matches
       end
       @matches
     end
