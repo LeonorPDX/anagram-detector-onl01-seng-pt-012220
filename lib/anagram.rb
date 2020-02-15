@@ -11,6 +11,8 @@ class Anagram
     array.each do |nw|
       if nw.split.sort == @word.split.sort
         @matches << nw
+      else
+        @matches
       end
       @matches
     end
